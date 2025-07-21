@@ -89,7 +89,7 @@ main > section{
     height: auto;
 }
 
-/* features related style */
+/* team and features related style */
 .teams{
     align-items: center;
     justify-content: center;
@@ -112,6 +112,28 @@ main > section{
     padding-bottom: 32px;
 }
 
+/* feature related styles */
+.features{
+    
+    gap: 140px;
+}
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+
+}
+.feature-card .feature-title{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.feature-card{
+    padding: 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
 /* some facts style */
 .facts-container{
     display: grid;
